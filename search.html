@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-12/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arama</title>
+    <script type="module" crossorigin src="/goit-js-hw-12/assets/vendor-BkVuWn-o.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-12/assets/main-iFH_DNUS.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/styles-CNZNpazn.css">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="search-container">
+          <form class="search-form" id="searchForm">
+            <input
+              type="text"
+              name="searchQuery"
+              class="search-input"
+              placeholder="Search images..."
+              autocomplete="off"
+              required
+            />
+            <button type="submit" class="search-button">Search</button>
+          </form>
+          <div
+            class="loading-message"
+            id="loadingMessage"
+            style="display: none"
+          >
+            <div class="loader"></div>
+            <p>Loading images, please wait...</p>
+          </div>
+        </div>
+
+        <div class="search-results" id="searchResults">
+          <!-- Arama sonuçları burada görünecek -->
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
