@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Search</title>
+    <title>Arama</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -22,36 +22,22 @@
             />
             <button type="submit" class="search-button">Search</button>
           </form>
-        </div>
-
-        <div class="search-results" id="searchResults">
-          <!-- Arama sonuçları burada görünecek -->
-        </div>
-
-        <!-- Load More button below the gallery -->
-        <div
-          class="load-more-wrapper"
-          style="text-align: center; margin-top: 16px"
-        >
-          <button
-            id="loadMoreBtn"
-            class="search-button load-more-button"
-            style="display: none; width: 125px; height: 40px"
-          >
-            Load more
-          </button>
           <div
             class="loading-message"
             id="loadingMessage"
-            style="display: none; margin-top: 12px"
+            style="display: none"
           >
             <div class="loader"></div>
             <p>Loading images, please wait...</p>
           </div>
         </div>
+
+        <div class="search-results" id="searchResults">
+          <!-- Arama sonuçları burada görünecek -->
+        </div>
       </div>
     </section>
 
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
